@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>Resources/favicon.ico</file>
+        <file>Resources/1377003296_cog.png</file>
+        <file>Resources/1377003410_filter.png</file>
+        <file>Resources/1377003707_bullet_find.png</file>
+        <file>Resources/1377003918_page_find.png</file>
+        <file>Resources/1377004004_clock_history_frame.png</file>
+        <file>Resources/1377004134_bookmark.png</file>
+        <file>Resources/1377179129_cancel.png</file>
+    </qresource>
+</RCC>

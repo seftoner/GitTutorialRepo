@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PluginListItemWidget</class>
+ <widget class="QWidget" name="PluginListItemWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>269</width>
+    <height>48</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777215</width>
+    <height>48</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>true</bool>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <widget class="QLabel" name="pluginNameLbl">
+     <property name="text">
+      <string>Plugin Name</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QToolButton" name="toolButton">
+     <property name="minimumSize">
+      <size>
+       <width>30</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>S</string>
+     </property>
+     <property name="icon">
+      <iconset resource="../../../Icons.qrc">
+       <normaloff>:/icons/Resources/1377003296_cog.png</normaloff>:/icons/Resources/1377003296_cog.png</iconset>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QToolButton" name="toolButton_2">
+     <property name="minimumSize">
+      <size>
+       <width>30</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>R</string>
+     </property>
+     <property name="icon">
+      <iconset resource="../../../Icons.qrc">
+       <normaloff>:/icons/Resources/1377179129_cancel.png</normaloff>:/icons/Resources/1377179129_cancel.png</iconset>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../../../Icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>
